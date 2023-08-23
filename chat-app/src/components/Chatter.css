@@ -1,0 +1,43 @@
+/* Styles for the parent container */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height:auto;
+    background-color: #f0f0f0;
+  }
+  
+  /* Styles for the main component */
+  .main-component {
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+    width: inherit;
+  }
+  
+  /* Styles for the heading */
+  .main-component h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+    color: #333;
+  }
+  
+  /* Styles for the chat labels */
+  .chat-label {
+    display: block;
+    padding: 10px 0;
+    border-bottom: 1px solid #333;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  .chat-label:not(:last-child) {
+    border-bottom: none;
+  }
+  .chat-label:hover {
+    background-color: #e0e0e0;
+  }
+  
+  
